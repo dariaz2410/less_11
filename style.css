@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header{
+padding-top: 33px;
+padding-bottom: 30px;
+}
+
+.phone{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    margin-left: 9px;
+    margin-right: 60px;
+}
+
+.info-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.dropdown::after{
+content: url(./images/arrow_menu.svg);
+margin-left: 4px;
+width: 15px;
+height: 15px;
+}
+
+.add_user{
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+    margin-top: 59px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+.search{
+    width: 345px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background:#F2F2F2;
+    background: url(./images/Search.svg) no-repeat center left;
+    background-position: 295px;
+    padding-left:20px;
+    font-weight: 400;
+}
+
+.search-form{
+    margin-top: 50px;
+}
+
+main{
+    padding-top: 75px;
+    background-color: #F9F9F9;
+}
+
+.breadcrumb{
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb li{
+    display: inline;
+    color: #BDBDBD;
+}
+
+.breadcrumb li a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+.breadcrumb li:nth-child(n+2)::before{
+    content: '•';
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.button-back{
+    margin-top: 30px;
+    margin-bottom: 44px;
+}
+
+.button-back-text{
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+
+a.button-back-text img{
+    margin-right: 4px;
+}
+
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 46px 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 30px 20px;
+    gap: 25px;
+    width: 315px;
+    border-radius: 20px;
+    border: 1px solid #F2F2F2;
+    background: #F9F9F9;
+    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.05), -8px -8px 15px 0px #FFF;
+}  
+
+div.card img{
+    width: 275px;
+    height: 227px;
+    border-radius: 5px;
+}
+
+.card-title{
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.card-description{
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.card-prise{
+    margin: 0;
+    color:#333;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.button-weight{
+    display: flex;
+}
+
+.weight{
+    padding: 4px 12px;
+    color: #4F4F4F;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.active{
+    border-radius: 5px;
+    border: 1px solid #3ECF5E;
+    background: #FFF;
+}
+
+.card-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details{
+    padding: 12px 32px;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid rgba(5, 175, 52, 0.53);
+    background: #3FCF5E;
+}
+
+.basket{
+    width: 46px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background: #FFF;
+    background: url(./images/Buy2.svg) no-repeat center;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 25px;
+}
+
+.link-pagination{
+    text-decoration: none;
+    font-family: Roboto;
+    color: #828282;
+}
+
+.numbers-pagination{
+   display: flex;
+   gap: 20px;
+}
+
+.active-pagination{
+    color:#219653;
+    font-weight: 700;
+}
+
+footer{
+    background-color: #333333;
+    padding: 100px 0;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.footer-links{
+    display: flex;
+    align-self: center;
+    width: 33.33%;
+}
+
+div.footer-links a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-services{
+    display: flex;
+    gap: 47px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-phone{
+    display: flex;
+    justify-content: flex-end;
+    gap: 9px;
+}
